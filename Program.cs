@@ -2,6 +2,7 @@
 namespace Vehicle_rental__management_Assign3;
 class Program
 {
+    
     static void Main(string[] args)
     {
         Car car = new Car("Civic", "Honda", 2018, 40.5m, 4, "Gasoline", "Automatic", true);
