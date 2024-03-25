@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Vehicle_rental__management_Assign3
 {
+    //defining motorcycle class which inherits from vehicle
     public class Motorcycle : Vehicle
     {
         public int EngineCapacity { get; set; }
         public string FuelType { get; set; }
         public bool HasFairing { get; set; }
-
+        // constructor for the motor cycle class
         public Motorcycle(string model, string manufacturer, int year, decimal rentalPrice, int engineCapacity, string fuelType, bool hasFairing)
             : base(model, manufacturer, year, rentalPrice)
         {
@@ -19,7 +20,7 @@ namespace Vehicle_rental__management_Assign3
             FuelType = fuelType;
             HasFairing = hasFairing;
         }
-
+        // to display vehicle details
         public override void DisplayDetails()
         {
             base.DisplayDetails();
