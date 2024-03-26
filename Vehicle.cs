@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 // Vehicle class represents a generic vehicle with common properties.
-public class Vehicle
+public class Vehicle;
 namespace Vehicle_rental__management_Assign3
 {
     // Constructor for creating a Vehicle object
